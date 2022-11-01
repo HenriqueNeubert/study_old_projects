@@ -1,0 +1,145 @@
+body {
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;/*desabilita estilizaçao do navegador e mais aplicaçoes...normalize.css*/
+}
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.menu-principal {
+    float: left;
+    width: 100%;
+    padding: 20px 0;
+    /*
+        padding-top: 30px;
+        padding-bottom: 30px;
+        padding-left: 0px;
+        padding-right: 0px;
+    */
+    background-color: #252323;
+}
+
+main { 
+    margin: 0 auto;
+    width: 90%;
+    width: 980px;
+    }
+
+.col-100 {
+    width: 100%;
+    float: left;
+    position: relative;
+}
+
+.logo {
+    width: 70%;
+    float: left;
+}
+
+.logo *{
+    float: left;
+}
+
+.redes-sociais {
+    width: 30%;
+    float:right;
+}
+
+.redes-sociais ul{
+    float: right;
+}
+
+.redes-sociais ul li{
+    margin-bottom: 0 auto;
+    margin-left: 10px;
+    display: inline-block;
+    float: left;
+    list-style: none; /* opcional pois com o display inline já se retira os marcadores*/
+}
+
+.header-2 {
+    float: left;
+    width: 100%;
+    margin:0 auto;
+    padding: 16px;
+}
+
+.menu-urls{
+    height:70px;
+    border-bottom: 3px solid #848484;
+   
+}
+
+.menu ul li {
+    display: inline-block;
+    color: #000000;
+    margin-left: 15px;
+    margin-top: 3px;
+}
+
+.menu ul li:hover{
+    border-bottom: 3px solid #01A9DB;
+    height: 43px;
+}
+
+.menu ul li a:hover{
+    color: #01A9DB;
+   
+}
+
+ul {
+    padding: 0px limportant;
+}
+
+.menu ul li a {
+    color: #000000;
+    text-decoration: none; /*tira pre estilizaçao*/
+    font-size: 18px;
+    text-transform: uppercase; /*todas as letras maiusculas*/
+}
+
+.menu {    
+    width: 50%;
+    float: left;
+    margin-top: 8px;
+}
+
+.busca{
+    width: 30%;
+    float: right;
+    text-align: center;
+    border: 1px solid #cccccc;
+     
+}
+
+.busca fieldset{
+    float: left;
+    width: 100%;
+    border: none;
+}
+
+.busca input{
+    float: right;
+    height: 30px;
+    width: 80%;
+    line-height: 20px;
+    border: none;
+    background: none;
+}
+
+.busca input#send-search{
+    width: 20%;
+    background: url('../img/lupa-1.png') no-repeat;
+    background-position: center center;
+    background-size: 25px 25px;
+
+    }
+
+#search-txt { 
+    width: 75%;
+    float: left;
+    padding-left: 5%;
+}

@@ -1,0 +1,286 @@
+.menu-principal{
+    width: 100%;
+    height: 60px;
+    background-color: black;
+    }
+
+main, .content{
+    margin: 0 auto; 
+    width: 980px;
+    height: 60px;
+    position: relative;
+    }
+
+.logo {
+    width: 54%;
+    float: left;
+    padding: 3px;
+    padding-left: 55px;
+    
+}
+
+.redes-sociais {
+    width: 40%;
+    height: 60px;
+    float: right;
+}
+
+.redes-sociais ul{
+    float: right;
+    padding-right: 30px;
+    height: 60px;
+    margin: 0 auto;
+    margin-top:6px
+}
+
+.redes-sociais ul li{
+    display: inline-block;
+    list-style: none;
+    margin-left: 25px;
+    padding-right:10px;
+}
+
+
+.header-2 {
+    background-color: white;
+    width: 980px;
+    margin: 0 auto;
+    padding: 0px;
+}
+.menu-urls{
+    height: 62px;
+    border-bottom: 3px solid gray;
+}
+
+.menu ul li{
+    display: inline-block;
+    list-style: none;
+    color:darkgrey;
+    margin-left:15px;
+    margin-top: 6px
+}
+
+.menu ul li a:hover {
+    color:#87CEFA;
+    border-bottom: 3px solid cadetblue;
+    height: 40px;
+}
+
+.menu ul li a{
+    display: inline-block;
+    list-style: none;
+    color:darkgrey;
+    text-decoration: none;
+    font-size: 18px;
+    text-transform: uppercase;
+    font-weight: 900;
+    
+}
+
+.menu {
+    width: 60%;
+    float: left;
+}
+
+.busca {
+    width: 30%;
+    float: right;
+    text-align: center;
+    border: 2px solid darkgray;
+    margin-top: 6px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;<!--teste-->
+}
+
+.busca input{
+    height: 45px;
+    width: 80%;
+    padding-left: 10px;
+    float: left;
+    border: none;
+    font-size: 1.4em;
+    color:red;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box; <!--teste-->
+
+    }
+
+.busca input#enviar {
+    width: 20%;
+    background-image: url('../img/lupa-2.png');
+    background-repeat: no-repeat;
+    background-position: center center;
+    padding: 0;
+    background-size: auto 35px;
+    background-color: #87CEFA;
+    color: transparent;
+    cursor: pointer;
+}
+
+
+.col-100 {
+    width: 100%;
+    float: left;
+    position: relative;
+}
+
+.slider-principal {
+    width: 980px;
+    margin: 0 auto;
+    padding-top: 20px;
+}
+.slider-principal img{
+      width: 980px;  
+}
+
+button.slick-prev {
+    font-size: 0px;
+    border:none;
+    height: 51px;
+    width: 25px;
+    background-color: transparent;
+    background-image:url('../img/flechaesquerda.png');
+     background-size: 25px 51px;
+    position: absolute;
+    z-index: 9;
+    top:40%;
+    left:5%; 
+    cursor: pointer;
+}
+
+button.slick-next {
+    font-size: 0px;
+    border:none;
+    height: 51px;
+    width: 25px;
+    background-color: transparent;
+    background-image:url('../img/flechadireita.png');
+    background-size: 25px 51px;
+    position: absolute;
+    z-index: 9;
+    top:40%;
+    right: 5%; 
+    cursor: pointer;
+}
+body{background-color:dimgray;}
+
+.slick-list {
+    width: 100% !important;}
+
+.slick-initialized {
+    overflow:hidden;
+}
+
+.slick-dots li button {
+    font-size:0px;
+    border: 5px solid #fff;
+    width: 26px;
+    height: 26px;
+    background: transparent;
+    border-radius:50%;
+    cursor:pointer;
+}
+
+.slick-dots {
+    margin: 0 auto;
+    width: 50%;
+    position: absolute;
+    left: 40%;
+    top:90%;
+}
+
+li.slick-active button {
+   background-color: aqua; 
+}
+
+.slick-dots li {
+    padding-left: 20px;
+    display: inline-block;
+}
+
+.texto-destaque {
+    text-align: center;
+}
+
+.texto-destaque h1 {
+    color: #818181;
+    font-size: 30px;
+    text-transform: uppercase;
+}
+
+.texto-destaque strong {
+    color:#646464
+}
+
+.texto-destaque p {
+    color:#9a9a9a;
+    font-size: 15px;
+    
+}
+
+.col-3 {
+    padding-left:15px;
+    padding-right: 15px;
+    width: 30%;
+    float: left;
+    position: relative;
+}
+
+.bloco-texto:hover img {
+    height: 120px;
+    width: 120px;
+}
+
+.bloco-texto:hover p {
+   
+}
+
+.col-3 img:hover {
+    height:  120px;
+    width: 120px;
+    color: aqua;
+    cursor: pointer;
+}
+
+.col-3 p:hover {
+    margin-top: 10px;
+    color: aqua;
+    cursor: pointer;
+}
+
+.bloco-texto {
+    margin-top: 3em;
+    margin-bottom: 100px;
+}
+
+h3 {
+    font-weight: normal !important;
+}
+
+.bloco-logos {
+    background-color: aliceblue;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    cursor: pointer;
+}
+
+.col-4 {
+    display: inline-block;
+    float: left;
+    width: 25%;
+    text-align: center;
+}
+
+.col-4 img {
+    margin: 0 auto;
+}
+
+.col-4 img:hover {
+    margin-top: 10px;
+    position: relative;
+}
+
+
+

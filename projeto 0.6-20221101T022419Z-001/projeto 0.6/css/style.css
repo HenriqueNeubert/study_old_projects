@@ -1,0 +1,122 @@
+*{ 
+    margin: 0 ;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;  
+    font-weight: 400;
+    font-size: 100%;
+    list-style: none;
+    box-sizing: border-box;
+     word-break: inherit;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+}
+body{
+    background-color: white;
+}
+.center{
+    margin:0 auto;
+    width: 1100px;
+}
+.w-100{
+    width: 100%;
+}
+false-header{
+    padding: 50px 0;
+    position:relative;
+    background-color: firebrick;
+}
+.cabecalho{
+    float: left;
+    background-color: #0489B1;
+    color:black;
+    position: fixed;
+}
+.box-numero{
+    text-align: center;
+    background-color: #A9E2F3;
+    padding: 10px;
+}
+.logo-principal{
+    float: left;
+    padding: 10px;
+    padding-top:15px; 
+}
+.redes-sociais{
+    float: right;
+}
+.redes-sociais {
+   
+}
+.redes-sociais li {
+    float: left;
+    padding: 37px;
+    
+}
+.conteudo-principal {
+    float: left;
+    margin-top: 160px;
+}
+.text {
+    width: 1100px;
+}
+.text h1{
+    font-family: 'Hind Siliguri', sans-serif;
+font-family: 'Lobster', cursive;
+}
+.text p {
+    text-align: justify;
+    width: 50%;
+    float: left;
+    padding: 20px 5px 20px 0px ;
+    line-height: 25px;
+}
+.text h1{
+    font-size: 2.3em;
+    padding: 10px;
+    text-align: center;
+}
+.imagem-text {
+    border-radius:50px;
+    float: right;
+    padding: 20px 0px 20px 20px;
+    width: 50%;
+    cursor: pointer;
+}
+.blog-1 {
+    background-color:fuchsia;;
+}
+.blog-1 a img {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    float: left;
+    width: 200;
+    height: 200px;
+    margin:  0 auto;
+}
+.blog-1 h1{
+    text-align: center;
+    font-size: 1.5em;
+    margin-top:215px; 
+}
+.blog-1 p{
+    text-align: justify;
+    font-size: 0.9em;
+    margin: 15px
+}
+.box-blog{
+    border: 3px solid #D8D8D8;
+    border-radius: 10px;
+    float: left;
+    width: 250px;
+    height: 500px;
+    margin: 30px 10px 0px 10px;
+}
+.slider-principal {
+    width: 1100px;
+    
+}
+.slider-principal img{
+    padding: 0px 10px 0px 20px; 
+    float: left;
+    border-radius:200px;
+}

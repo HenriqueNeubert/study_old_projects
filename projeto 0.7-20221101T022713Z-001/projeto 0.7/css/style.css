@@ -1,0 +1,159 @@
+* {
+  padding: 0;
+  margin: 0;
+  outline: 0;
+  text-decoration: none;
+  color: #000000;
+  font-family: 'Heebo', sans-serif;
+  font-weight: 400;
+  font-size: 100%;
+  word-break: inherit;
+    -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  }
+  * ::-moz-selection {
+    background: #f69233;
+    color: #e45727; }
+  * ::selection {
+    background: #f69233;
+    color: #e45727; }
+
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-style: inherit;
+  font-size: 100%; }
+
+form *::-moz-placeholder {
+  color: red!important;
+  font-family: "Lato"; }
+
+form *:-moz-placeholder {
+  color: red!important;
+  font-family: "Lato"; }
+
+form *:-ms-input-placeholder {
+  color: red!important;
+  font-family: "Lato"; }
+
+form *::-webkit-input-placeholder {
+  color: red!important;
+  font-family: "Lato"; }
+
+input, textarea {
+  resize: none;
+  -moz-box-shadow: none;
+  -webkit-box-shadow: none;
+  box-shadow: none; }
+
+:focus {
+  outline: 0; }
+
+body {
+  font-size: 62.5%;
+  line-height: 1;
+  color: black;
+  background: white;
+  overflow-x: hidden; }
+
+html, body {
+  display: block;
+  overflow-x: hidden; }
+
+ol, ul {
+  list-style: none;
+  margin: 0; }
+
+.f-left{
+  float: left;
+}
+
+.f-right{
+  float: right;
+}
+
+.p-top-20{
+  padding-top: 20px;
+}
+
+.p-bottom-20{
+  padding-bottom: 20px;
+}
+
+table {
+  border-collapse: separate;
+  border-spacing: 0; }
+
+caption, th, td {
+  text-align: center;
+  font-weight: normal; }
+
+blockquote:before, blockquote:after, q:before, q:after {
+  content: ""; }
+
+blockquote, q {
+  quotes: "" ""; }
+.w-100{
+  width: 100%;
+  float: left;
+
+}
+.center{
+  margin:0 auto;
+  width: 1330px;
+}
+.container{
+  padding: 20px 0px;
+}
+.color-padrao{
+  background-color: #1ea7b1;
+}
+.false-header {
+
+}
+.cabecalho{
+   border-bottom: 2px solid #D3D3D3;
+}
+.box-email a {
+  width: 30%;
+  float: left;
+  color:#ffffff;
+}
+.main-logo{
+  text-align: center;
+  float: left;
+  background-color: aqua;
+}
+.l-max {
+  max-width: 150px;
+}
+.main-menu {
+  background-color: #e45727;
+  margin: 0 auto;
+  align-self: center;
+}
+.main-menu ul{
+  padding: 0 177px;
+}
+.yellow{
+  background-color: yellow;
+}
+.main-menu ul li{
+  display: inline-block;
+  font-size: 1.8em;
+  text-transform: capitalize;
+  list-style: none;
+  margin: 0 auto;
+  margin-left: 25px;
+}
+.botao-doacao {
+  text-align: center;
+  background-color:red;
+  float: right;
+  font-size: 1.6em;
+  border-radius:20px;
+  text-transform: uppercase;
+}

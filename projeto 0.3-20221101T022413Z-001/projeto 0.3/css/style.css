@@ -1,0 +1,281 @@
+* {
+  padding: 0;
+  margin: 0;
+  outline: 0;
+  text-decoration: none;
+  color: #000000;
+  font-family: "Lato";
+  font-weight: 400;
+  font-size: 100%;
+  word-break: inherit;
+    -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  }
+  * ::-moz-selection {
+    background: #f69233;
+    color: #e45727; }
+  * ::selection {
+    background: #f69233;
+    color: #e45727; }
+
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-style: inherit;
+  font-size: 100%; }
+
+form *::-moz-placeholder {
+  color: red!important;
+  font-family: "Lato"; }
+
+form *:-moz-placeholder {
+  color: red!important;
+  font-family: "Lato"; }
+
+form *:-ms-input-placeholder {
+  color: red!important;
+  font-family: "Lato"; }
+
+form *::-webkit-input-placeholder {
+  color: black!important;
+  font-family: "Lato"; }
+
+input, textarea {
+  resize: none;
+  -moz-box-shadow: none;
+  -webkit-box-shadow: none;
+  box-shadow: none; }
+
+:focus {
+  outline: 0; }
+
+body {
+  font-size: 62.5%;
+  line-height: 1;
+  color: black;
+  background: white;
+  overflow-x: hidden; }
+
+html, body {
+  display: block;
+  overflow-x: hidden; }
+
+ol, ul {
+  list-style: none;
+  margin: 0; }
+
+table {
+  border-collapse: separate;
+  border-spacing: 0; }
+
+caption, th, td {
+  text-align: center;
+  font-weight: normal; }
+
+body {
+    width: 100%;
+    height: 100%;
+}
+
+.menu-principal {
+    width: 100%;
+    background-color: #252525;
+    height: 60px;
+}
+
+main {
+    margin: 0 auto;
+    width: 980px;
+    position: relative;
+}
+
+.logo {
+    width: 60%;
+    float: left;
+    padding: 9px;
+    padding-left: 0px;
+}
+
+.redes-sociais {
+    width: 40%;
+    float: right;
+    padding-top: 14px;
+}
+
+.redes-sociais ul li {
+    margin-left:30px;
+    display: inline-block;
+    float: right;
+}
+
+.header-2 {
+    width: 980px;
+    margin: 0 auto;
+    background-color: #ffffff;
+}
+
+.col-100 {
+    width: 100%;
+    float: left;
+    position: relative;
+}
+
+.menu-urls {
+    width: 100%;
+    height: 60px;
+    border-bottom: 3px solid #efefef;
+}
+
+.menu {
+    width: 70%;
+    float: left;
+    padding: 20px;
+    padding-left: 0px;
+}
+
+.menu ul li {
+    display: inline-block;
+    margin-left: 15px;
+    font-size: 18px;   
+    height: 40px;
+}
+
+.menu ul li:hover {
+    border-bottom: 3px solid #00bac6;
+}
+
+.menu ul li a:hover {
+    color: #00bac6;
+}
+
+.menu ul li a {
+    color: #8b8b8b;
+    text-decoration: none;
+    font-size: 18dpx;
+    text-transform: uppercase;
+}
+
+#home {
+    margin-left: 0px;
+}
+
+.busca{
+    width: 22%;
+    float: right;
+    padding-top: 9px;
+    text-align: center;
+}
+
+.busca fieldset{
+    float: left;
+    width: 100%;
+    border: none;
+}
+
+.busca input{
+    float: right;
+    height: 36px;
+    width: 80%;
+    line-height: 20px;
+    border:1px solid black;
+    background: none;
+}
+
+.busca input#send-search{
+    width: 20%;
+    background: url('../img/lupa.png') no-repeat;
+    background-position: center center;
+    background-size: 25px 25px;
+    cursor: pointer;
+    }
+
+#search-txt { 
+    width: 80%;
+    float: left;
+    padding-left: 5%;
+}
+.slider-principal {
+    width: 100%;
+    margin: 0 auto;
+    padding-top: 20px;
+    height: 550px;
+    overflow: hidden;
+    /*pq a imagem fica cortada quando tento diminuir a altura??*/
+}
+
+.imagem{
+      width: 980px;
+   
+        
+}
+
+button.slick-prev {
+    font-size: 0px;
+    border:none;
+    height: 51px;
+    width: 25px;
+    background-color: transparent;
+    background-image:url('../img/anterior.png');
+    background-size: 25px 51px;
+    position: absolute;
+    z-index: 9;
+    top:40%;
+    left:0%; 
+    cursor: pointer;
+    left: 15%;
+}
+
+button.slick-next {     
+    font-size: 0px;
+    border:none;
+    height: 51px;
+    width: 25px;
+    background-color: transparent;
+    background-image:url('../img/proximo.png');
+    background-size: 25px 51px;
+    position: absolute;
+    z-index: 9;
+    top:40%;
+    right: 0%; 
+    cursor: pointer;
+    right: 15%;
+}
+
+.slick-initialized{
+    overflow: hidden; /*não necessário: retirar barra*/
+}
+
+.slick-dots li button { 
+    font-size: 0px;/*rezetada*/
+    border: 5px solid #ffffff;
+    width: 20px;
+    height: 20px;
+    background: transparent;
+    border-radius:56%;
+    cursor:pointer;
+}
+
+.slick-dots li {
+    display: inline-block;
+    padding-left: 10px;
+}
+
+li.slick-active button { /*significa=pegar li com classe active, e dentro dessa classe estilize um button */
+    background-color: #00bac6;
+    
+}
+
+.slick-dots {
+    margin: 0 auto;
+    width: 50%;
+    left: 50%;
+    top:500px;
+    position: absolute;
+}
+
+
+
+
